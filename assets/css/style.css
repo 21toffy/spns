@@ -1508,6 +1508,21 @@ margin: 4px 2px;*/
     color: #fff;
 }
 
+
+.contact-img {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/contact.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+
 .just{
   justify-content: center;
   text-align: left;
@@ -1655,10 +1670,10 @@ a.animated-button.victoria-one:after {
   transform: translateX(-50%) translateY(-50%) rotate(-25deg);
 }
 a.animated-button.victoria-two {
-  border: 2px solid #D24D57;
+  border: 2px solid #003679;
 }
 a.animated-button.victoria-two:after {
-  background: #D24D57;
+  background: #003679;
   -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
   -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
