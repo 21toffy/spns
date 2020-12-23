@@ -1547,7 +1547,58 @@ margin: 4px 2px;*/
     color: #fff;
 }
 
+.hr_restructure_revamp {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/restructure1.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
 
+.employee_engagement {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/employee_management1.jpeg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+
+.key_performance {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/metrics.png) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.recruitment {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/recruitment1.png) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
 
 .international {
     min-height: 720px;
