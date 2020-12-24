@@ -1521,6 +1521,63 @@ margin: 4px 2px;*/
     color: #fff;
 }
 
+.gallery{
+  
+      min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/performance_management.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.man_power {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/manpower2.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.process_outsourcing {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/process_outsourcing2.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+
+
+.faq {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/FAQ.jpg) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+
+
 .sqm {
     min-height: 720px;
     position: relative;
@@ -2117,6 +2174,14 @@ a.animated-button.thar-four:before {
   padding: 90px;
 }
 
+.feat_art{
+    background-color: rgb(242, 242, 242);
+  padding: 50px 0 5px 90px;
+  margin-bottom:0px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
 
 
 
@@ -2126,6 +2191,60 @@ a.animated-button.thar-four:before {
     position: relative;
     height: 100%;
     background: url(assets/img/process_analytics1.png) center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+/*
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}*/
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.0rem;
+    color: #000;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 1.0rem;
+    content: "\002B";
+    color: #000 ;
+    float: right;
+    margin-top: -1px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\002B";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+
+.four{
+  border-left: 2px solid black; 
+}
+
+
+
+.research {
+    min-height: 720px;
+    position: relative;
+    height: 100%;
+    background: url(assets/img/research2.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
