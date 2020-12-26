@@ -8,6 +8,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/*       width: 100vw;
+    height: 100vh;
+        background-size: 100% 100%;
+*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -351,16 +356,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   height: calc(100vh - 114px);
   padding: 0;
   overflow: hidden;
+  /*margin-bottom: 0px;*/
 }
 
 #hero .carousel-item {
   width: 100%;
   height: calc(100vh - 114px);
-  background-size: cover;
-  background-position: top right;
+          background-size: 100%;
+              background-position: top right;
   background-repeat: no-repeat;
   overflow: hidden;
 }
+
+arousel-item
 
 #hero .carousel-item::before {
   content: '';
@@ -385,6 +393,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   left: 0;
   right: 0;
   overflow: hidden;
+}
+
+#main{
+  /*margin-top: 0px;*/
 }
 
 #hero .carousel-content {
@@ -1402,10 +1414,20 @@ margin: 4px 2px;*/
 }
 
 .marg-class{
-  margin:30px;
+  /*margin:30px;*/
   text-align: center;
-  justify-content: center;
+  /*justify-content: start;*/
   font-weight: bolder;
+  font-size: 10px;
+}
+
+
+.marg-class{
+   margin:30px;
+  text-align: center;
+  /*justify-content: start;*/
+  font-weight: bolder;
+  font-size: 16px; 
 }
 
 .marg-class-2{
@@ -1417,7 +1439,7 @@ margin: 4px 2px;*/
 
 .pmarge{
   justify-content: center;
-  text-align: center;
+  /*text-align: center;*/
   font-weight: lighter;
   font-size: 18px;
 }
@@ -1521,6 +1543,16 @@ margin: 4px 2px;*/
     color: #fff;
 }
 
+@media(max-width:768px){
+    .homepage {
+    background-image: url(assets/img/overview.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
+
 .gallery{
   
       min-height: 720px;
@@ -1535,6 +1567,16 @@ margin: 4px 2px;*/
     color: #fff;
 }
 
+@media(max-width:768px){
+    .gallery {
+    background-image: url(assets/img/performance_management.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
+
 .man_power {
     min-height: 720px;
     position: relative;
@@ -1546,6 +1588,14 @@ margin: 4px 2px;*/
     -moz-background-size: cover;
     background-size: cover;
     color: #fff;
+}
+@media(max-width:768px){
+    .man_power {
+    background-image: url(assets/img/manpower2.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
 }
 
 .process_outsourcing {
@@ -1559,6 +1609,14 @@ margin: 4px 2px;*/
     -moz-background-size: cover;
     background-size: cover;
     color: #fff;
+}
+@media(max-width:768px){
+    .process_outsourcing {
+    background-image: url(assets/img/process_outsourcing2.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
 }
 
 
@@ -1574,6 +1632,14 @@ margin: 4px 2px;*/
     -moz-background-size: cover;
     background-size: cover;
     color: #fff;
+}
+@media(max-width:768px){
+    .faq {
+    background-image: url(assets/img/FAQ.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
 }
 
 
@@ -1591,6 +1657,16 @@ margin: 4px 2px;*/
     color: #fff;
 }
 
+@media(max-width:768px){
+    .sqm {
+    background-image: url(assets/img/sqm2.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
+
 .corporate {
     min-height: 720px;
     position: relative;
@@ -1603,6 +1679,16 @@ margin: 4px 2px;*/
     background-size: cover;
     color: #fff;
 }
+
+@media(max-width:768px){
+    .corporate {
+    background-image: url(assets/img/coporate_strategy2.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
 
 .hr_restructure_revamp {
     min-height: 720px;
@@ -1617,6 +1703,16 @@ margin: 4px 2px;*/
     color: #fff;
 }
 
+@media(max-width:768px){
+    .hr_restructure_revamp {
+    background-image: url(assets/img/restructure1.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
+
 .employee_engagement {
     min-height: 720px;
     position: relative;
@@ -1629,6 +1725,16 @@ margin: 4px 2px;*/
     background-size: cover;
     color: #fff;
 }
+
+@media(max-width:768px){
+    .employee_engagement {
+    background-image: url(assets/img/employee_management1.jpeg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
 
 
 .key_performance {
@@ -1644,6 +1750,16 @@ margin: 4px 2px;*/
     color: #fff;
 }
 
+@media(max-width:768px){
+    .key_performance {
+    background-image: url(assets/img/metrics.png);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
+
 .recruitment {
     min-height: 720px;
     position: relative;
@@ -1655,6 +1771,15 @@ margin: 4px 2px;*/
     -moz-background-size: cover;
     background-size: cover;
     color: #fff;
+}
+
+@media(max-width:768px){
+    .recruitment {
+    background-image: url(assets/img/recruitment1.png);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
 }
 
 .international {
@@ -1669,6 +1794,15 @@ margin: 4px 2px;*/
     background-size: cover;
     color: #fff;
 }
+@media(max-width:768px){
+    .international {
+    background-image: url(assets/img/international_market2.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
 
 
 
@@ -1677,8 +1811,8 @@ margin: 4px 2px;*/
     min-height: 720px;
     position: relative;
     height: 100%;
-    background: url(assets/img/process_documentation.png
-) center center;
+    background: url(assets/img/process_documentation.png)
+     center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -1686,6 +1820,16 @@ margin: 4px 2px;*/
     background-size: cover;
     color: #fff;
 }
+
+@media(max-width:768px){
+    .documentation {
+    background-image: url(assets/img/process_documentation.png);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
 
 .contact-img {
     min-height: 720px;
@@ -1699,11 +1843,19 @@ margin: 4px 2px;*/
     background-size: cover;
     color: #fff;
 }
+@media(max-width:768px){
+    .contact-img {
+    background-image: url(assets/img/contact.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
 
 
 .just{
   justify-content: center;
-  text-align: left;
+  /*text-align: left;*/
   padding: 0px 20px 10px 50px;
 }
 
@@ -1716,7 +1868,10 @@ margin: 4px 2px;*/
 .management {
     min-height: 720px;
     position: relative;
-    height: 100%;
+       width: 100vw;
+    height: 100vh;
+        background-size: 100% 100%;
+    background-size: 100% 100%;
     background: url(assets/img/management1.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1731,8 +1886,8 @@ margin: 4px 2px;*/
 .board {
     min-height: 720px;
     position: relative;
-    height: 100%;
-    width: 100%;
+  /*  height: 100%;
+    width: 100%;*/
     background: url(assets/img/board_of_directors.jpg) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1740,21 +1895,37 @@ margin: 4px 2px;*/
     -moz-background-size: cover;
     background-size: cover;
     color: #fff;
+    width: 100vw;
+    height: 100vh;
+        background-size: 100% 100%;
 }
 
+
+
+/*@media(max-width:768px){
+    .board {
+    background-image: url(assets/img/board_of_directors.jpg);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}*/
+
+
 .pmargeleft{
-    justify-content: center;
+    justify-content: start;
   text-align: left;
   /*font-weight: lighter;*/
-  font-size: 18px;
+  font-size: 15px;
 }
 
 
 .methodology{
       min-height: 720px;
     position: relative;
-    height: 100%;
-    width: 100%;
+       width: 100vw;
+    height: 100vh;
+        background-size: 100% 100%;
     background: url(assets/img/bpm-methodology.png) center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1763,6 +1934,20 @@ margin: 4px 2px;*/
     background-size: cover;
     color: #fff;
 }
+
+
+
+
+
+@media(max-width:768px){
+    .methodology {
+    background-image: url(assets/img/bpm-methodology.png);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
 
 .meth-class{
   padding: 250px 0px 0px 30px;
@@ -2200,6 +2385,16 @@ a.animated-button.thar-four:before {
     color: #fff;
 }
 
+@media(max-width:768px){
+    .process {
+    background-image: url(assets/img/process_analytics1.png);   
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+    }
+}
+
+
 /*
 h2 {
     font-family: Arial, Verdana;
@@ -2252,4 +2447,56 @@ h2 {
     -moz-background-size: cover;
     background-size: cover;
     color: #fff;
+}
+service-block, .gallery-block, .vacation-offer-block, .resort-overview-block, .blog-block, .blog-block-slider, .about-block, .contact-block, .blog{
+    padding: 70px 0 0 0;
+}
+.vacation-offer-bgbanner {
+    background: rgba(0, 0, 0, 0) url("assets/img/overview.jpg") no-repeat scroll center center / cover ;
+    color: #fff;
+    position: relative;
+    padding: 65px;
+}
+.vacation-offer-bgbanner::before {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -50%;
+    position: absolute;
+    top: 0;
+    transform: skewX(-30deg);
+    width: 100%;
+}
+.vacation-offer-details > h1 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.vacation-offer-details .btn.btn-default {
+    background: #003679 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 35px;
+    padding: 8px 12px;
+    text-shadow: 0 0 0;
+    text-transform: capitalize;
+}
+
+.ban-button{
+   background: #8900 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #0000;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 35px;
+    padding: 8px 12px;
+    text-shadow: 0 0 0;
+    text-transform: capitalize;
 }
